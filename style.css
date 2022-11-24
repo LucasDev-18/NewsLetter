@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&family=Work+Sans:wght@300;400&display=swap');
+
+* {
+  background-size: cover;
+  margin: 0;
+}
+
+body {
+  background-image: url(assets/read_news.jpg);
+  background-size: 200vh;
+  background-position-x: 150px;
+}
+header, main {
+  position: absolute;
+  top: 5px;
+}
+
+main {
+  margin-top: 150px;
+}
+
+.bgBlack {
+  background-color: black;
+  height: 650px;
+  width: 55%;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  position: relative;
+}
+
+
+.description {
+  margin: 90px 0px 0px 30px;
+}
+
+h1{
+  color: #08C05E;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #8257e5;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+}
+
+#insertEmail {
+  display: flex;
+  
+  align-items: center;
+  margin: 0px 0px 0px 30px;
+}
+
+.youremail {
+  margin: 90px 0px 10px 30px;
+}
+
+#email {
+  width: 500px;
+  height: 42px;
+  border: none;
+  border-radius: 2px;
+}
+
+#emailinput {
+  width: 48px;
+  height: 48px;
+  border-radius: 2px;
+  margin-top: px;
+  background-color: #8257e5;
+  cursor: pointer;
+}
+
+#emailinput:hover {
+  background-color: #5f26e4;
+  transition: 0.9s;
+}
+
+.falha{
+  font-family: 'League Spartan', sans-serif;
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+  color: #e55757;
+}
+
+.sucesso {
+  font-family: 'League Spartan', sans-serif;
+  margin-top: 10px;
+  font-size: 15px;
+  display: flex;
+  color: #08C05E;
+}
+
+span {
+  color:#8257e5;
+}
